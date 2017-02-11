@@ -54,8 +54,8 @@
     │  └─js         
     │
     ├─components      vue组件
-    │  ├─back         博客控制台组件
-    │  ├─front        博客页面组件
+    │  ├─back         控制台组件
+    │  ├─front        页面组件
     │  └─share        公共组件
     │
     ├─router          路由
