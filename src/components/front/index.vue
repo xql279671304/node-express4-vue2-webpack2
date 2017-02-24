@@ -10,11 +10,13 @@
 		methods: {
 			sendMessage (){
 				// GET /someUrl
-				this.$http.post('/wx/sendMessage', {name: 'xxxx', pwd: '123456'}).then(response => {
+				this.$http.post('http://localhost:8097/wx/sendMessage', {name: 'www', pwd: '123456'}).then(response => {
 					// success callback
+					console.log('success')
 					console.log(response)
 				}, response => {
 					// error callback
+					console.log('error')
 					console.log(response)
 				});
 			}

@@ -11,7 +11,7 @@ Vue.use(Router)
 export default new Router({
 	mode: 'history',
 	routes: [
-		{ path: '/', component: index },
+		{ path: '/a', component: index },
 		{ path: '/home', component: home },
 	]
 })
